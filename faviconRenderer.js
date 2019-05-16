@@ -5,7 +5,7 @@ const faviconRenderer = {
 	// You can specify the area of the canvas to be rendered: a rectangle from (x, y) to (x + width, y + height)
 	setCanvasById(id, x, y, width, height){
 		let canvas = document.getElementById(id)
-		return setCanvas(canvas, x, y, width, height)
+		return this.setCanvas(canvas, x, y, width, height)
 	},
 
 	// Starts the rendering loop
